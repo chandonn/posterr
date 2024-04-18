@@ -1,0 +1,14 @@
+.card .no-posts-found {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .no-posts-found h3 {
+    font-weight: 400;
+}
+
+.card .no-posts-found h3 span {
+    color: var(--primary-color);
+}

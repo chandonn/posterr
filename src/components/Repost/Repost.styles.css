@@ -1,0 +1,3 @@
+.card + .repost, .repost + .repost, .repost + .card {
+    margin-top: 32px;
+}

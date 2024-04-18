@@ -1,0 +1,53 @@
+.profile-header {
+    width: inherit;
+    overflow-x: hidden;
+    margin-bottom: 16px;
+}
+
+.profile-header .profile-banner {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    border-radius: 0 0 30px 30px;
+}
+
+.profile-header .profile-banner img {
+    width: inherit;
+    min-height: 300px;
+}
+
+.profile-header .profile-picture {
+    height: 150px;
+    width: 150px;
+    z-index: 5;
+    border: 3px solid var(--secondary-text-color);
+    margin-top: -100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.profile-numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.profile-numbers > div {
+    display: flex;
+    align-items: center;
+    padding: 6px 24px 8px;
+    background-color: var(--foreground-color);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 1px solid var(--text-color);
+}
+
+.profile-numbers > div span {
+    margin-left: 8px;
+}

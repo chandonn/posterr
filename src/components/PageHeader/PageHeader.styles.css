@@ -1,0 +1,19 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px;
+    width: 100%;
+    background-color: var(--foreground-color);
+}
+
+.page-header h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.page-header h4 {
+    font-size: 16px;
+    font-weight: 300;
+}

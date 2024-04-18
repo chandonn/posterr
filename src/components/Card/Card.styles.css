@@ -1,0 +1,22 @@
+.card {
+    background-color: var(--foreground-color);
+    color: var(--text-color);
+    border-radius: 20px 8px 20px 0%;
+    border-width: 0px;
+    padding: 24px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px -6px rgba(0,0,0,0.4);
+}
+
+.card + .card {
+    margin-top: 32px;
+}
+
+.secondary-card {
+    margin-top: 24px;
+    padding: 24px;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid var(--text-color);
+}

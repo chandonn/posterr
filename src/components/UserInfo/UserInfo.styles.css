@@ -1,0 +1,27 @@
+.user-info {
+    display: flex;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.user-info:hover {
+    background-color: var(--content-hover-color);
+}
+
+.user-info > div {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.user-info > div h4 {
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.user-info > div span {
+    opacity: 0.7;
+}

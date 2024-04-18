@@ -1,0 +1,42 @@
+.create-post {
+    margin-bottom: 30px;
+}
+
+.create-post-content textarea {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+.create-post-content textarea:focus, .create-post-content textarea:active, .create-post-content textarea:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.create-post h3 {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+.create-post .create-post-content {
+    display: flex;
+}
+
+.create-post .create-post-action {
+    padding: 16px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.create-post .create-post-action span {
+    margin-right: 12px;
+}
+
+.create-post-action .disabled {
+    color: var(--error-message);
+}

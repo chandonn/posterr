@@ -1,0 +1,17 @@
+.logo {
+    margin: 24px 0;
+}
+
+.logo a:visited, .logo a:active {
+    text-decoration: none;
+}
+
+.logo a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.logo a svg {
+    height: 48px;
+    width: 48px;
+}

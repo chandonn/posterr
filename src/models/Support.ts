@@ -1,0 +1,1 @@
+export type PostType = "POST" | "REPOST" | "QUOTE"
